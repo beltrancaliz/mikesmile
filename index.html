@@ -36,7 +36,7 @@
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <a id="menu-close" href="#" class="btn btn-dark btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
                 <a href="/index.html" onclick=$("#menu-close").click();>Home</a>
             </li>
@@ -44,7 +44,7 @@
                 <a href="/index.html#portfolio" onclick=$("#menu-close").click();>Recent</a>
             </li>
             <li>
-                <a href="#" onclick=$("#menu-close").click();>Gallery</a>
+                <a href="/gallery/index.html" onclick=$("#menu-close").click();>Gallery</a>
             </li>
             <li>
                 <a href="/index.html#footer" onclick=$("#menu-close").click();>Contact</a>
@@ -59,7 +59,7 @@
             <h1 style="color:white">Mike Smile</h1>
             <h3 style="color:white">Miguelito mira mira</h3>
             <br>
-            <a href="#portfolio" class="btn btn-portfolio btn-lg">Discover</a>
+            <a href="#portfolio" class="btn btn-portfolio btn-lg" style="margin-top:30px">Discover</a>
         </div>
     </header>
 
@@ -161,10 +161,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="assets/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
@@ -240,28 +240,7 @@
     $('.map').on('click', onMapClickHandler);
     </script>
 
-    <script>
-// Get the modal
-var modal = document.getElementById('myModal');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-</script>
 
 </body>
 
