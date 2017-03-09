@@ -28,7 +28,7 @@ footer {
     position: fixed;
     right: 0;
     width: 250px;
-    height: 100%;
+    height: 30%;
     transform: translateX(250px);
     overflow-y: auto;
     background: #222;
@@ -175,6 +175,12 @@ footer {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+.btn-dark {
+    border-radius: 6;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
 }
 
 /* 100% Image Width on Smaller Screens */
